@@ -137,7 +137,7 @@ function generatePreviousEpisodesHTML() {
         <table width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <td class="more-episode-info"
-              style="background-position: 50% -25px;background-image: url(${prev1Thumbnail || ''});">
+              style="background-position: center 25%;background-image: url(${prev1Thumbnail || ''});">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td width="80%" valign="top">
@@ -194,7 +194,7 @@ function generatePreviousEpisodesHTML() {
         <table width="100%" cellpadding="0" cellspacing="0" border="0">
           <tr>
             <td class="more-episode-info"
-              style="background-position: 50% -25px;background-image: url(${prev2Thumbnail || ''});">
+              style="background-position: center 25%;background-image: url(${prev2Thumbnail || ''});">
               <table width="100%" cellpadding="0" cellspacing="0" border="0">
                 <tr>
                   <td width="80%" valign="top">
