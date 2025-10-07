@@ -1,4 +1,4 @@
-// Store the email template with placeholders
+// Store the complete email template with placeholders
 const emailTemplateBase = `<!--
   templateType: "email"
   isAvailableForNewContent: true
@@ -541,7 +541,217 @@ const emailTemplateBase = `<!--
       </td>
     </tr>
 
-    <!-- Episode 1 -->
+    {{PREVIOUS_EPISODES}} Pepper</div>
+                    </a>
+                  </td>
+                  <td width="20%" class="episode-arrow" valign="middle">
+                    <img style="height:auto;width:32px;"
+                      src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/arrow-right.png" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="episode-copy" style="padding-top:15px;">
+              <div class="episode-description">
+                <p>In this episode of MasterMined, hosts Mark Scrivner and Jeff Skillen flip the mic to their co-host, Lee Pepper, as he shares insights from his new book, Never Outmatched. Drawing from his experiences as a strategist, executive, and coach, Lee unpacks what it means to lead with resilience, courage, and authenticity in the fast-changing world of behavioral health. His lessons bridge personal growth and organizational leadership, offering a roadmap for building culture, navigating uncertainty, and driving sustainable success.</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- /Episode 1 -->
+
+    <!-- Episode 2 -->
     <tr>
       <td class="episode-container">
-        <table width
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="more-episode-info"
+              style="background-position: 50% -25px;background-image: url(https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/Master%20Mined%20Assets/2025/Thumbnails/Episode_Seventeen_Thumbnail.jpeg);">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td width="80%" valign="top">
+                    <a href="https://youtu.be/p8LMP39QK4k" style="text-decoration:none;color:#fff;">
+                      <div class="episode-date">
+                        <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/calendar.png"
+                          alt="Calendar Icon"
+                          style="vertical-align:baseline;margin-top:5px;margin-right:5px;height:12px;width:12px !important;">
+                        September 9, 2025
+                        <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/timer.png"
+                          alt="Time Icon"
+                          style="vertical-align:baseline;margin-top:5px;margin-left:10px; margin-right:5px;height:12px;width:12px !important;">
+                        55:00
+                      </div>
+                      <div class="episode-title">How AI & Mobile Tech Are Reshaping Behavioral Health</div>
+                    </a>
+                  </td>
+                  <td width="20%" class="episode-arrow" valign="middle">
+                    <img style="height:auto;width:32px;"
+                      src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/arrow-right.png" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="episode-copy" style="padding-top:15px;">
+              <div class="episode-description">
+                <p>In this episode of MasterMined, Mark Scrivner, Jeff Skillen, and Lee Pepper sit down with Vincent Phamvan, founder of Vyten and a three-time CMO who has helped brands like Vans, Allbirds, and Calendly scale smart. Vincent shares how mobile apps and AI are changing the behavioral health industry — from simplifying referrals to building stronger patient relationships — and the compliance and culture challenges leaders must address to implement these tools successfully.</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- /Episode 2 -->
+
+    <tr>
+      <td align="center">
+        <!-- Main content table -->
+        <table cellpadding="0" cellspacing="0" border="0" width="600" class="header-container">
+          <!-- Main background image row -->
+          <tr>
+            <td background="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/cta-bg.png" bgcolor="#364FA1"
+              width="600" height="300" valign="middle"
+              style="background-image: url(https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/cta-bg.png); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+              <!--[if gte mso 9]>
+                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:300px;">
+                    <v:fill type="tile" src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/cta-bg.png" color="#364FA1" />
+                    <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+
+              <!-- Center-aligned content table -->
+              <table cellpadding="0" cellspacing="0" border="0" width="100%" height="300">
+                <tr>
+                  <td align="center" valign="middle" style="padding: 20px;">
+                    <!-- Brand container -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 30px;">
+                      <tr>
+                        <td align="center">
+                          <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/mm_bottom_logo.png"
+                            alt="MASTERMINED" class="mm-bottom-logo">
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Learn More button -->
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top: 20px;">
+                      <tr>
+                        <td align="center" style="text-align:center;">
+                          <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                              <td>
+                                <a href="https://www.snapshotinteractive.com/mastermined" class="learn-more-btn">
+                                  LEARN MORE <img style="height:auto;width:13px;"
+                                    src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/arrow-right.png" />
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!--[if gte mso 9]>
+                    </v:textbox>
+                    </v:rect>
+                    <![endif]-->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    </tr>
+    <td align="center">
+      <!-- Main content table -->
+      <table cellpadding="0" cellspacing="0" border="0" width="600" class="platform-container">
+        <tr>
+          <td style="padding: 40px 20px 60px;">
+            <!-- Heading -->
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom: 20px;">
+              <tr>
+                <td align="center"
+                  style="font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                  LISTEN ON YOUR PREFERRED PLATFORM
+                </td>
+              </tr>
+            </table>
+
+            <!-- Platform buttons with mobile stacking - centered -->
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="button-container">
+              <tr>
+                <!-- Center alignment wrapper -->
+                <td align="center">
+                  <table cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+                    <tr class="button-row">
+                      <!-- Apple Podcasts Button -->
+                      <td align="center" style="padding: 0 5px;">
+                        <a href="https://podcasts.apple.com/us/podcast/masterminded/id1815365042" target="_blank">
+                          <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/mm_apple.png"
+                            alt="Apple Podcasts" width="150" height="40"
+                            style="display: block; border-radius: 5px; max-width: 100%;">
+                        </a>
+                      </td>
+
+                      <!-- Spotify Button -->
+                      <td align="center" style="padding: 0 5px;">
+                        <a href="https://open.spotify.com/show/6A2eZb2CMeGFzFRg0vj4aN" target="_blank">
+                          <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/mm_spotify.png"
+                            alt="Spotify" width="150" height="40"
+                            style="display: block; border-radius: 5px; max-width: 100%;">
+                        </a>
+                      </td>
+
+                      <!-- YouTube Button -->
+                      <td align="center" style="padding: 0 5px;">
+                        <a href="https://www.youtube.com/@MasterMinedPodcast" target="_blank">
+                          <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/mm_youtube.png"
+                            alt="YouTube" width="150" height="40"
+                            style="display: block; border-radius: 5px; max-width: 100%;">
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+    </tr>
+  </table>
+  <table role="presentation" class="hse-footer hse-secondary" width="100%" cellpadding="0" cellspacing="0"
+    style="font-family:Arial, sans-serif; font-size:12px; line-height:135%; color:#23496d; margin-bottom:0; padding:0">
+    <tbody>
+      <tr>
+        <td align="center" valign="top"
+          style="font-family:Arial, sans-serif; font-size:15px; color:#23496d; word-break:break-word; text-align:center; margin-bottom:0; line-height:135%; padding:10px 20px">
+          <p
+            style="font-family:Arial, sans-serif;font-size:12px;font-weight:normal;text-decoration:none;font-style:normal;color:#23496d;margin-bottom:0;">
+            {{ site_settings.company_name }}, {{ site_settings.company_street_address_1 }}, {{
+            site_settings.company_city }}, {{ site_settings.company_state }} 37206, United States,
+            615.810.9855
+          </p>
+          <p style="margin-top:0;">
+            <a data-unsubscribe="true" href="{{ unsubscribe_link }}"
+              style="font-family:Helvetica,Arial,sans-serif; font-size:12px; color:#00a4bd; font-weight:normal; text-decoration:underline; font-style:normal"
+              data-hs-link-id="0" data-hs-link-id-v2="AF6iJQqE" target="_blank">Unsubscribe</a>
+            <a data-unsubscribe="true"
+              href="https://marketing.snapshotinteractive.com/hs/preferences-center/en/page?data=W2nXS-N30h-MxW3XLSfM3DL576W4mmxrm2p0nXSW1_cSJv3bhMdDW3861fK1VcDKXW3H4qVX3NVlQkW49Nrcg1W-XgmW2nN_Jn1X8XlVW3bdXLG3dfvsNW4ffYLQ235Bq3W2nRrKG34CJSkW4mH8Vr49KSxLW3yWGyZ2Yr56QW4hrj1Z49HP74W3V-ZGZ2502cyW3_MHK12TQqF3W1Qs-pG2MWDdCW2s_Bxf3SzP14W3_Lry03zbTXTW3_R4xQ1NmJmyW1Vkrcj3S__HCW47B7YK3QM3Y4W3b2tf42WNxwcW2MwTzG2CP1blW43YlxL3SP10VW2-F55h3JPm2XW22TJfj3CcslHW2nWD4T3ZCFqRW3NFYl44tCFlJW1Xmp9C4cQcPpW2w4rcY1Vhm9TW2p1KyW47QJPhW3BPcxC2xZWQMW2vY7jL3_Ct5V0&amp;utm_source=hs_email&amp;utm_medium=email&amp;_hsenc=p2ANqtz-_WZAnD7DmKRlwuxB9pRQH_Df_DhDX6k4EiVeytOY_UtQqnYk34Ao2Lz3RrBdEzGuLscWJL"
+              style="font-family:Helvetica,Arial,sans-serif; font-size:12px; color:#00a4bd; font-weight:normal; text-decoration:underline; font-style:normal"
+              data-hs-link-id="0" data-hs-link-id-v2="Ps6zLzpM" target="_blank">Manage preferences</a>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>`;
