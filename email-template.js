@@ -541,72 +541,7 @@ const emailTemplateBase = `<!--
       </td>
     </tr>
 
-    {{PREVIOUS_EPISODES}} Pepper</div>
-                    </a>
-                  </td>
-                  <td width="20%" class="episode-arrow" valign="middle">
-                    <img style="height:auto;width:32px;"
-                      src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/arrow-right.png" />
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <td class="episode-copy" style="padding-top:15px;">
-              <div class="episode-description">
-                <p>In this episode of MasterMined, hosts Mark Scrivner and Jeff Skillen flip the mic to their co-host, Lee Pepper, as he shares insights from his new book, Never Outmatched. Drawing from his experiences as a strategist, executive, and coach, Lee unpacks what it means to lead with resilience, courage, and authenticity in the fast-changing world of behavioral health. His lessons bridge personal growth and organizational leadership, offering a roadmap for building culture, navigating uncertainty, and driving sustainable success.</p>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <!-- /Episode 1 -->
-
-    <!-- Episode 2 -->
-    <tr>
-      <td class="episode-container">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr>
-            <td class="more-episode-info"
-              style="background-position: 50% -25px;background-image: url(https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/Master%20Mined%20Assets/2025/Thumbnails/Episode_Seventeen_Thumbnail.jpeg);">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                <tr>
-                  <td width="80%" valign="top">
-                    <a href="https://youtu.be/p8LMP39QK4k" style="text-decoration:none;color:#fff;">
-                      <div class="episode-date">
-                        <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/calendar.png"
-                          alt="Calendar Icon"
-                          style="vertical-align:baseline;margin-top:5px;margin-right:5px;height:12px;width:12px !important;">
-                        September 9, 2025
-                        <img src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/timer.png"
-                          alt="Time Icon"
-                          style="vertical-align:baseline;margin-top:5px;margin-left:10px; margin-right:5px;height:12px;width:12px !important;">
-                        55:00
-                      </div>
-                      <div class="episode-title">How AI & Mobile Tech Are Reshaping Behavioral Health</div>
-                    </a>
-                  </td>
-                  <td width="20%" class="episode-arrow" valign="middle">
-                    <img style="height:auto;width:32px;"
-                      src="https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/arrow-right.png" />
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <td class="episode-copy" style="padding-top:15px;">
-              <div class="episode-description">
-                <p>In this episode of MasterMined, Mark Scrivner, Jeff Skillen, and Lee Pepper sit down with Vincent Phamvan, founder of Vyten and a three-time CMO who has helped brands like Vans, Allbirds, and Calendly scale smart. Vincent shares how mobile apps and AI are changing the behavioral health industry — from simplifying referrals to building stronger patient relationships — and the compliance and culture challenges leaders must address to implement these tools successfully.</p>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <!-- /Episode 2 -->
+    {{PREVIOUS_EPISODES}}
 
     <tr>
       <td align="center">
