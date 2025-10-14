@@ -64,7 +64,7 @@ const hostProfiles = {
                           multiple C-Level roles, and his experience as a staff member on Ross
                           Perot's Presidential Campaigns into building great teams that solve
                           technology challenges & grow market share through digital marketing.
-                          Check out his upcoming book release <a href="https://www.neveroutmatched.com" target="_blank"
+                          Check out his recent book release <a href="https://www.neveroutmatched.com" target="_blank"
                             style="color: #EC5A2B;">here</a>.
                           <br>
                           <a href="mailto:lee.pepper@peprallygroup.com" style="color: #EC5A2B;">Email Lee</a> | <a
